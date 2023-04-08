@@ -4,7 +4,8 @@
   "info": {
     "singularName": "producto",
     "pluralName": "productos",
-    "displayName": "Producto"
+    "displayName": "Producto",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,11 +18,16 @@
     "Descripcion": {
       "type": "text"
     },
-    "Vendedor": {
-      "type": "string"
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "Precio": {
-      "type": "string"
+      "type": "float"
     }
   }
 }

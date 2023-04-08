@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cotizadors",
+  "info": {
+    "singularName": "cotizador",
+    "pluralName": "cotizadors",
+    "displayName": "Cotizador"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "text"
+    },
+    "correo": {
+      "type": "string"
+    },
+    "mensaje": {
+      "type": "text"
+    },
+    "telefono": {
+      "type": "string"
+    }
+  }
+}
