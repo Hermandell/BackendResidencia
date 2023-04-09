@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "socialmedias",
+  "info": {
+    "singularName": "socialmedia",
+    "pluralName": "socialmedias",
+    "displayName": "Socialmedia"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "socialName": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

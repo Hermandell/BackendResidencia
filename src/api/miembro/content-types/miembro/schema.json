@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "miembros",
+  "info": {
+    "singularName": "miembro",
+    "pluralName": "miembros",
+    "displayName": "Miembro"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
