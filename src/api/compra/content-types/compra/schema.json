@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "compras",
+  "info": {
+    "singularName": "compra",
+    "pluralName": "compras",
+    "displayName": "Compra",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "correo": {
+      "type": "string"
+    },
+    "direccion": {
+      "type": "text"
+    },
+    "apellidos": {
+      "type": "string"
+    },
+    "total": {
+      "type": "float"
+    },
+    "subtotal": {
+      "type": "float"
+    },
+    "productos": {
+      "type": "json"
+    }
+  }
+}
